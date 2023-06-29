@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "name";
+    src: url("../fonts/Kontanter-Bold.otf") format("opentype");
+}
+
+h1{
+    font-family: "name";
+    text-align: center;
+    color: black;
+    font-size: 150px;
+}
