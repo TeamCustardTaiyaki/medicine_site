@@ -5,9 +5,26 @@
     src: url("../fonts/Kontanter-Bold.otf") format("opentype");
 }
 
+.backgroundimage img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
 h1{
     font-family: "name";
     text-align: center;
-    color: black;
-    font-size: 150px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 20px;
+}
+
+body{
+    background-size: contain;
 }
