@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-size: contain;
+}
+
+@font-face{
+    font-family: "russia";
+    src: url("../fonts/Kontanter-Bold.otf") format("opentype");
+}
+
+h1{
+    font-family: "russia";
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.backgroundimage img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.mainimg{
+    text-align: center;
+}
+
+.PageTransition{
+    text-align: center;
+    font-family: serif;
+    /*src: url("../fonts/Kontanter-Bold.otf") format("opentype");*/
+    color: lime;
+    font-size: 50px;
+}
+
+.PageTransition a{
+    color:inherit;
+    text-decoration:none;
+}
