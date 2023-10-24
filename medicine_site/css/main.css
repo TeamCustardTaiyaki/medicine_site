@@ -5,17 +5,17 @@
     src: url("../fonts/Kontanter-Bold.otf") format("opentype");
 }
 
-.backgroundimage img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-}
 
 h1{
     font-family: "russia";
     text-align: center;
     color: whitesmoke;
     font-size: 50px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: inherit;
 }
 
 p{
@@ -26,5 +26,5 @@ p{
 }
 
 body{
-    background-size: contain;
+    background-color: black;
 }
